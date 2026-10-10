@@ -8,6 +8,6 @@ int main () {
     float diemTrungBinh = (toan* 2 + ly + hoa )/ (float)4;
     printf("Ma so sinh vien:%s\n",mssv);
     printf("Ho Va Ten:%s\n", hoten);
-    printf("Diem Trung Binh:%2f\n",diemtrungbinh);
+    printf("Diem Trung Binh:%.2f\n",diemtrungbinh);
     retrun 0;
 }

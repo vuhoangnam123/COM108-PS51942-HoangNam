@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "process",
+      "label": "C/C++ Compile Run: C/C++ Compile Run: Compile",
+      "command": "powershell.exe -NoProfile -NonInteractive -Command \"chcp 65001 | Out-Null; & C:\\Users\\admin\\OneDrive\\Desktop\\MinGW\\MinGW\\bin\\gcc.exe -Wall -Wextra -g3 c:\\code\\COM108-PS51942-HoangNam\\Lab4\\Main_Menu_lab4.c -o c:\\code\\COM108-PS51942-HoangNam\\Lab4\\output\\Main_Menu_lab4.exe; exit $LASTEXITCODE\"",
+      "problemMatcher": [
+        "$gcc"
+      ]
+    }
+  ]
+}
